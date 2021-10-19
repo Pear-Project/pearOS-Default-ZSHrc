@@ -8,3 +8,7 @@ bindkey "^[[1;5C" forward-word
 # Basically better ls
 alias ls='ls -F'
 alias ll='ls -lh'
+
+# aliases for commands that windows uses
+alias dir='ls -F'
+alias cls='clear'
