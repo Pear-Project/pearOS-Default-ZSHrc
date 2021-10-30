@@ -22,9 +22,6 @@ exit
 - macOS style prompt
 - "last login" and the tty that is currently used
 
-# To-do:
-- make the "last login" date work (now it displays the current date instead of last login)
-
 # Copyright
 
 This dotfile is made by Alexandru Balan for the Pear Project under the GNU Public License v3 or later.
