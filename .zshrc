@@ -2,7 +2,8 @@
 tty=`tty | sed -e "s:/dev/::"`
 ll=$(last -1 -R  $USER | head -1 | cut -c 23-)
 echo "Last login: $ll on ${tty}"
-PROMPT="%{$fg[blue]%}%m:%{$fg[yellow]%}%1~ %n %{$reset_color%}%# "
+
+PROMPT="%n@%{$fg[blue]%}%m %{$fg[yellow]%}%1~ %{$reset_color%}%# "
 bindkey "^[[1;5D" backward-word
 bindkey "^[[1;5C" forward-word
 
